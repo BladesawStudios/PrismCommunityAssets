@@ -1,0 +1,104 @@
+{
+  "format": "prism-rig",
+  "version": 1,
+  "name": "Animal_Cassowary_A",
+  "actor": "Animal_Cassowary_A",
+  "game": "Totk",
+  "ik": [
+    {
+      "id": 0,
+      "name": "IK Head",
+      "tip": "Head",
+      "length": 4,
+      "weight": 1,
+      "enabled": true,
+      "target": [
+        2.8661198E-09,
+        2.4820223,
+        0.53645337
+      ],
+      "usePole": true,
+      "pole": [
+        -5.411821E-09,
+        2.2297454,
+        0.47355366
+      ],
+      "poleAngle": 0,
+      "solver": 2,
+      "useRotation": true,
+      "rotationWeight": 1,
+      "rotationBones": 3,
+      "antiFold": 17,
+      "rotationRelative": true,
+      "targetRotation": [
+        -90,
+        -38.999996,
+        89.99999
+      ]
+    },
+    {
+      "id": 1,
+      "name": "IK Left Leg",
+      "tip": "Toe_1_BL",
+      "length": 3,
+      "weight": 1,
+      "enabled": true,
+      "target": [
+        0.22999999,
+        0.15428525,
+        -0.21259955
+      ],
+      "usePole": false,
+      "pole": [
+        0,
+        0,
+        0
+      ],
+      "poleAngle": 0,
+      "solver": 0,
+      "useRotation": true,
+      "rotationWeight": 1,
+      "rotationBones": 1,
+      "antiFold": 0,
+      "rotationRelative": true,
+      "targetRotation": [
+        90,
+        -48.999992,
+        -90
+      ]
+    },
+    {
+      "id": 3,
+      "name": "IK Right Leg",
+      "tip": "Toe_1_BR",
+      "length": 3,
+      "weight": 1,
+      "enabled": true,
+      "target": [
+        -0.22999988,
+        0.15428525,
+        -0.2125994
+      ],
+      "usePole": false,
+      "pole": [
+        0,
+        0,
+        0
+      ],
+      "poleAngle": 0,
+      "solver": 0,
+      "useRotation": true,
+      "rotationWeight": 1,
+      "rotationBones": 1,
+      "antiFold": 0,
+      "rotationRelative": true,
+      "targetRotation": [
+        -90.00001,
+        48.999992,
+        90
+      ]
+    }
+  ],
+  "lookAts": [],
+  "copies": []
+}
